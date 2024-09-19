@@ -8,7 +8,7 @@ if(isNaN(cashOut)){
     return;
 }
 
-if(pinNumber===1234){
+if(pinNumber===776699){
 const balance= getTextFieldValueById('account-balance');
 if(cashOut>balance){
     alert('you donot have cashout money');

@@ -10,7 +10,7 @@ document.getElementById('btn-add-money').addEventListener('click', function (e) 
         return;
     }
 
-    if (pinNumber === 1234) {
+    if (pinNumber === 776699) {
         const balance = getTextFieldValueById('account-balance');
         const newBalance = balance + addMoney;
         document.getElementById('account-balance').innerText = newBalance;
