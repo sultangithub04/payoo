@@ -6,7 +6,7 @@ document.getElementById('button-login').addEventListener('click', function(e){
     console.log(pinNumber, phoneNumber)
     if(phoneNumber==='5'&& pinNumber==='123'){
         console.log('your are login')
-        window.location.href='/home.html';
+        window.location.href='./home.html';
     }else{
         alert ('worng phone number')
     }
